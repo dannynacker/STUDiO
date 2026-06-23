@@ -1,0 +1,9 @@
+shiny
+numpy
+pandas
+scipy
+matplotlib
+soundfile
+librosa
+standard-aifc
+standard-sunau
