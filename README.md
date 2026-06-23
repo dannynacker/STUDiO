@@ -43,21 +43,21 @@ Export to Lucia/LUCiO `.lscf` files using a validated template
 Export of LUCiO debug CSV files for checking row-level values
 
 
-**Relationship to LUCiO**
+## **Relationship to LUCiO**
 
 STUDiO is a companion tool to LUCiO: the Lucia Unified Control Interface for OctAVEs.
 
 Where LUCiO focuses on offline audio-to-sourcecode generation, STUDiO focuses on interactive editing, translation, manual codification, and sourcecode inspection.
 
 
-**In short:**
+## **In short:**
 
 LUCiO = audio-derived Lucia/RX1-compatible sourcecode generation
 
 STUDiO = interactive sourcecode editing, translation, and manual authoring
 
 
-**Installation**
+## **Installation**
 
 Clone this repository:
 ```bash
@@ -81,7 +81,8 @@ Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
-**Requirements**
+
+## **Requirements**
 The app currently depends on:
 ```text
 shiny
@@ -95,7 +96,9 @@ standard-aifc
 standard-sunau
 ```
 These are listed in `requirements.txt`.
-**Running the App**
+
+
+## **Running the App**
 Run STUDiO locally with:
 ```bash
 shiny run --reload app.py
@@ -107,7 +110,7 @@ py -3.13 -m shiny run --reload app.py
 Then open the local URL shown in the terminal.
 
 
-**Recommended First Test**
+## **Recommended First Test**
 
 For first tests, use a short `.wav` file and conservative audio-analysis settings.
 
@@ -128,7 +131,7 @@ Luminance: `Amplitude`
 Longer audio files and dense time steps can create very large analysis tables and exports. For long songs, start with a coarser audio step before reducing the step duration.
 
 
-**Basic Workflow**
+## **Basic Workflow**
 
 A typical STUDiO workflow is:
 
@@ -147,7 +150,7 @@ Inspect the preview and export estimate.
 Export the desired output format.
 
 
-**Export Options**
+## **Export Options**
 
 STUDiO currently includes several export paths.
 
@@ -184,7 +187,7 @@ Then draw a 0-100 luminance curve before exporting the `.lscf` file.
 Exports a row-level CSV showing the control values used to construct the `.lscf` file. This is useful for checking achieved oscillator frequencies, cycle counts, halogen values, and patched row values before device testing.
 
 
-**Audio Analysis Modes**
+## **Audio Analysis Modes**
 
 STUDiO includes three audio-analysis engines:
 
@@ -197,7 +200,7 @@ CQT Peaks: semitone-spaced analysis that can work well for pitched musical mater
 Extracted frequencies can be folded into stroboscopic ranges, snapped to a musical grid, and transposed by musical interval before being applied to oscillator curves.
 
 
-**Frequency Mapping**
+## **Frequency Mapping**
 
 The app includes several frequency-mapping options, including:
 
@@ -214,7 +217,7 @@ Fold to RX1-safe range
 These mappings are intended to make audio-derived frequencies usable as stroboscopic control rates rather than direct audio-frequency values.
 
 
-**File Structure**
+## **File Structure**
 
 ```text
 STUDiO/
@@ -224,14 +227,14 @@ STUDiO/
 ```
 
 
-**Notes on Audio Files**
+## **Notes on Audio Files**
 
 WAV is the safest format for initial local testing. MP3, FLAC, and OGG may work depending on your local audio backend and Python environment.
 
 For long audio files, use a larger audio step duration at first. Very fine step durations can create large tables, dense plots, and long sourcecode exports.
 
 
-**Safety Notice**
+## **Safety Notice**
 
 This software is intended for research and development workflows involving stroboscopic stimulation. Stroboscopic light can be uncomfortable or unsafe for some individuals, particularly people with photosensitive epilepsy or other neurological sensitivities.
 
@@ -240,12 +243,12 @@ Do not use generated or edited stimulation files with participants unless they h
 Always validate exported files in the target device software before experimental or participant-facing use.
 
 
-**Development Status**
+## **Development Status**
 
 STUDiO is under active development. File-format support, export behaviour, audio-analysis settings, and device compatibility may change as the workflow is refined.
 
 
-**Licence**
+## **Licence**
 
 to update
 ```text
@@ -254,6 +257,6 @@ Separate rights notices may apply to stimulation files, audio files, templates, 
 ```
 
 
-**Acknowledgement**
+## **Acknowledgement**
 
 STUDiO was developed as part of an inter-device stroboscopic stimulation workflow for translating, editing, and manually codifying oscillator/sourcecode parameters across research and device-development contexts.
