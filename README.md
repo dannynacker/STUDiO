@@ -1,4 +1,4 @@
-STUDiO: Source Translation, User-Directed Editing, and Oscillator Codification
+STUDiO: Source Translation Utility for Device-Independent Oscillation
 STUDiO is a Python Shiny app for editing, translating, and exporting stroboscopic stimulation sourcecode for RoXiva/RX1- and Lucia/LUCiO-style workflows.
 The app combines a manual curve editor, audio analysis tools, an audio scrubber, and export utilities for generating editable stimulation sequences from either hand-drawn oscillator curves or audio-derived control parameters.
 What STUDiO Does
