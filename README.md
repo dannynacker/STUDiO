@@ -6,27 +6,29 @@
 
 
 ## **What STUDiO Does**
+
 # STUDiO is designed for researchers, artists, and device developers who need to inspect, edit, or translate stimulation parameters outside of device-native editors.
 
 
 ## **It currently supports:**
+
 # Manual editing of oscillator curves for frequency, duty cycle, and luminance
 
-Four RX1-style oscillator channels: `OSC1`-`OSC4`
+# Four RX1-style oscillator channels: `OSC1`-`OSC4`
 
-Optional `SUN`/halogen luminance editing for Lucia/LUCiO-style exports
+# Optional `SUN`/halogen luminance editing for Lucia/LUCiO-style exports
 
-Audio upload and playback with waveform/spectrogram preview
+# Audio upload and playback with waveform/spectrogram preview
 
-Audio-derived frequency, duty-cycle, and luminance extraction
+# Audio-derived frequency, duty-cycle, and luminance extraction
 
-FFT, Harmonic FFT, and CQT-based audio analysis modes
+# FFT, Harmonic FFT, and CQT-based audio analysis modes
 
-Musical interval transposition of extracted frequency candidates
+# Musical interval transposition of extracted frequency candidates
 
-Frequency folding into stroboscopic/RX1-safe ranges
+# Frequency folding into stroboscopic/RX1-safe ranges
 
-Audio-to-oscillator application for one selected oscillator or all four oscillators
+# Audio-to-oscillator application for one selected oscillator or all four oscillators
 
 Export to RX1-compatible `.txt` sourcecode
 
