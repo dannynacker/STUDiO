@@ -1,16 +1,16 @@
-**STUDiO: Source Translation Utility for Device-Independent Oscillation**
+## **STUDiO: Source Translation Utility for Device-Independent Oscillation**
 
-STUDiO is a Python Shiny app for editing, translating, and exporting stroboscopic stimulation sourcecode for RoXiva/RX1- and Lucia/LUCiO-style workflows.
+# STUDiO is a Python Shiny app for editing, translating, and exporting stroboscopic stimulation sourcecode for RoXiva/RX1- and Lucia/LUCiO-style workflows.
 
-The app combines a manual curve editor, audio analysis tools, an audio scrubber, and export utilities for generating editable stimulation sequences from either hand-drawn oscillator curves or audio-derived control parameters.
-
-
-**What STUDiO Does**
-STUDiO is designed for researchers, artists, and device developers who need to inspect, edit, or translate stimulation parameters outside of device-native editors.
+# The app combines a manual curve editor, audio analysis tools, an audio scrubber, and export utilities for generating editable stimulation sequences from either hand-drawn oscillator curves or audio-derived control parameters.
 
 
-**It currently supports:**
-Manual editing of oscillator curves for frequency, duty cycle, and luminance
+## **What STUDiO Does**
+# STUDiO is designed for researchers, artists, and device developers who need to inspect, edit, or translate stimulation parameters outside of device-native editors.
+
+
+## **It currently supports:**
+# Manual editing of oscillator curves for frequency, duty cycle, and luminance
 
 Four RX1-style oscillator channels: `OSC1`-`OSC4`
 
